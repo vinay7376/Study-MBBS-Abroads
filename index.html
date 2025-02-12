@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Study MBBS Abroad | Your Global Medical Journey</title>
+    <meta name="description" content="Unlock your medical career by enrolling in world-class universities abroad. Affordable fees, global recognition, and high-quality education await you.">
+    
+    <!-- Bootstrap 5 & Custom Styles -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Google Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark shadow-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="#">🌍 MBBS Overseas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link text-light" href="#why">Why MBBS?</a></li>
+                    <li class="nav-item"><a class="nav-link text-light" href="#countries">Top Destinations</a></li>
+                    <li class="nav-item"><a class="nav-link btn btn-warning px-4 text-dark fw-bold" href="#apply" style="color: rgb(251, 247, 247) !important;">Apply Now</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero text-center d-flex align-items-center justify-content-center text-white" style="height: 90vh; background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.3)), url('hero-bg.jpg') center/cover;">
+        <div>
+            <h1 class="fw-bold display-3">Launch Your Medical Career Globally</h1>
+            <p class="lead">World-class universities, affordable tuition, and top-notch education.</p>
+            <a href="#apply" class="btn btn-warning btn-lg shadow-lg mt-3">Get Started Today</a>
+        </div>
+    </header>
+
+    <!-- Why MBBS Abroad -->
+    <section id="why" class="container text-center my-5">
+        <h2 class="fw-bold text-warning">Why Choose MBBS Abroad?</h2>
+        <p class="text-muted">Affordable tuition, internationally recognized degrees, and an enriching learning experience.</p>
+    </section>
+
+    <!-- Top Countries -->
+    <section id="countries" class="bg-light py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold text-warning">Top Destinations for MBBS</h2>
+            <div class="row mt-4">
+                <div class="col-md-2"><div class="country-card bg-white shadow-sm p-3">🇷🇺 Russia</div></div>
+                <div class="col-md-2"><div class="country-card bg-white shadow-sm p-3">🇺🇿 Uzbekistan</div></div>
+                <div class="col-md-2"><div class="country-card bg-white shadow-sm p-3">🇰🇿 Kazakhstan</div></div>
+                <div class="col-md-2"><div class="country-card bg-white shadow-sm p-3">🇵🇭 Philippines</div></div>
+                <div class="col-md-2"><div class="country-card bg-white shadow-sm p-3">🇬🇪 Georgia</div></div>
+                <div class="col-md-2"><div class="country-card bg-white shadow-sm p-3">🇪🇬 Egypt</div></div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Apply Now Form -->
+    <section id="apply" class="container my-5 p-5 bg-gradient shadow-lg rounded">
+        <h2 class="text-center fw-bold text-warning mb-4">Secure Your Spot Today</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <form id="leadForm" class="p-4 border rounded bg-white shadow-sm">
+                    <!-- Full Name Field -->
+                    <div class="mb-4 position-relative">
+                        <label class="form-label text-dark fs-5"><i class="fas fa-user-alt me-2"></i> Full Name</label>
+                        <input type="text" id="name" class="form-control custom-input" required placeholder="Enter your full name">
+                    </div>
+    
+                    <!-- Email Field with Icon in Placeholder -->
+                    <div class="mb-4 position-relative">
+                        <label class="form-label text-dark fs-5"><i class="fas fa-envelope me-2"></i> Email</label>
+                        <input type="email" id="email" class="form-control custom-input" required placeholder=" Enter your email">
+                    </div>
+    
+                    <!-- Phone Field with Icon in Placeholder -->
+                    <div class="mb-4 position-relative">
+                        <label class="form-label text-dark fs-5"><i class="fas fa-phone-alt me-2"></i> Phone</label>
+                        <input type="tel" id="phone" class="form-control custom-input" required placeholder=" Enter your phone number">
+                    </div>
+    
+                    <!-- Preferred Country Field -->
+                    <div class="mb-4 position-relative">
+                        <label class="form-label text-dark fs-5"><i class="fas fa-flag me-2"></i> Preferred Country</label>
+                        <select id="country" class="form-select custom-input">
+                            <option>Russia</option>
+                            <option>Uzbekistan</option>
+                            <option>Kazakhstan</option>
+                            <option>Philippines</option>
+                            <option>Georgia</option>
+                            <option>Egypt</option>
+                        </select>
+                    </div>
+    
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn btn-warning w-100 fw-bold py-2 shadow-lg hover-shadow">
+                        <i class="fas fa-paper-plane me-2"></i> Submit Application
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2025 MBBS Overseas. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
